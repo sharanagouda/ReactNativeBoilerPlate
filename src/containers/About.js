@@ -2,11 +2,11 @@ import React, {Fragment} from 'react';
 import {SafeAreaView, StyleSheet, ScrollView, View, Text} from 'react-native';
 import {connect} from 'react-redux';
 
-class Home extends React.Component {
+class About extends React.Component {
   render() {
     return (
       <View>
-        <Text>Home</Text>
+        <Text>About </Text>
       </View>
     );
   }
@@ -18,7 +18,4 @@ const mapStateToProps = state => ({});
 
 const mapDispatchToProps = dispatch => ({});
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Home);
+export default connect(mapStateToProps,mapDispatchToProps)(About);
